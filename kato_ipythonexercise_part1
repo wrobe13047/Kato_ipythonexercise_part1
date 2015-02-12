@@ -1,0 +1,59 @@
+PART 2
+
+1.) v2.7.3
+
+2.) If you print a dictionary like in the standard Python, it is much less readable. In IPython, it provides facilities to make arbitrary blocks of code easy to execute.
+
+3.) I see other methods like b.append, b.count, b.extend and etc. The tab completion does in this case it to list down the available methods that can be used of the variable b. It completes the object or module attributes.
+
+4.) I see other methods also like datetime.data, datetime.datetime , and etc.
+
+5.) It displays some of the general info about the object.
+
+6.) I see a docstring. If we use double question mark, it will show the function's source code.
+
+7.) If we use wildcard, it will show all the names matching the wildcard expression.
+
+8.) The syntax of running scripts, codes in 
+ipython is, "%run <filename.py>".
+
+9.) I see empty space. If we input the 
+variable result, it will print the value of the result. The only accessible is the variables that has been defined in the file. The difference is that, If a Python script excepts command line arguments, these can be passed after the file path as you run on the commmand line.
+
+10.) If we wish to give a script access to variables already defined,use "%run -i" instead of plain %run.
+
+11.) This will not work if we use the command <Ctrl-Shift-V>. When executed, an error will raised.
+
+12.) It displays the code in the file with a comment like line. The difference is that, if we paste code with an indented block using <Ctrl-shift-v> and there is a empty line on it, Ipython will think that the indented block is over. While %paste takes whatever text is in the clipboard and executes it as a single block in the shell. It will also depends on your platform and how you installed python.
+
+13.) This are some text editors that have 3rd party extension enabling blocks of code to be send directly from the editor to a running Ipython shell are: Emacs and vim.
+
+14.) The common shortcuts that are used in Ipython are: Ctrl-b,Ctrl-f, Ctrl-a, Ctrl-u, Ctrl-k, and Ctrl-e
+
+15.) If an exceptions is raised, Ipython will print a full call stack trace with some lines of text arround the position at each point in the stack.
+
+16.) the magic function should use to ccontrol the amount of context is "%xmode".
+
+17.) Some of the well-used magic commands in Ipythona are: %magic, %debug, %paste,%cpaste,%reset,%time statement, and etc.
+
+18.) The result is computed average execution time.
+
+19.) It displays the deleted variables hat is 
+defined.
+
+20.) An automagic is a function that enables the magic funtions without using percent sign. As long as there is no variables is defined with the same name.
+
+PART 3
+
+1.) ipython qtconsole --pylab=inline
+
+3.) Yes, It can launch multiple Ipython processes in tabs. It does allow you to switch between tasks. Also, It can also share a process iwth the Ipython HTML notebook application.
+
+PART 4
+
+1.) ipython --pylab
+2.) what %gui does is to produce ab interactive computing environment of MATLAB and other domain-specific scientific computing environments.
+3.) It does draw the script.
+4.) %matplotlib inline
+5.) I do resize the figure by just clicking the resize button and adjust the size by dragging bars there. I do nothing XD(LOL. joke lang maam XD).
+6.) It loads the url.
